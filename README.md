@@ -1,5 +1,5 @@
 # NAPH-Napari-Anotation-Helper-
-NAPH is a Napari plugin that was created as part of my Ph.D. project. Its objective is to help developers reduce annotation time and errors. 
+NAPH is a Napari plugin that was created as part of my Ph.D. project. Its objective is to help developers reduce annotation time and errors when working with 3D cell images. In this case, my work is base on the annotation of 3D ligh-sheet microscopy cell organoids images. 
 
 Napari Annotation Helper, or NAHP is a Python-developed Napari plugin using magicgui (Magicgui, 2020) and pyqt5 (Riverbank Computing, n.d.) Python packages. NAHP’s objective is to assist users in performing annotation faster and more easily by providing a set of functions that will help them avoid annotation errors, object-label mismatch, label repetition, and confusion when tracking the labels added to an image.
 
