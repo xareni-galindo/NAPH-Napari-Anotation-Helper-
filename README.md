@@ -15,9 +15,9 @@ NAHP requires loading two images, the one to annotate and the one containing the
 ## Functions to facilitate annotation 
 To develop a plugin that makes annotating easier, I wanted to address practical situations that frequently resulted in errors. I mainly identified three situations: label tracking, label localization, and error localization. 
 
-**Label tracking**:I added a widget that keeps track of all the 3D labels already added and that only displays the last one added. In addition, I added a second widget whose purpose is to identify 2D labels that still must be re-labeled as 3D labels in the current frame. The idea is to help identify labels in crowded regions or very small labels (a few pixels) that are otherwise very hard to locate.
+**a) Label tracking**:I added a widget that keeps track of all the 3D labels already added and that only displays the last one added. In addition, I added a second widget whose purpose is to identify 2D labels that still must be re-labeled as 3D labels in the current frame. The idea is to help identify labels in crowded regions or very small labels (a few pixels) that are otherwise very hard to locate.
 
-**Label localization.**: During annotation, it is often necessary to find a specific annotated item, whether to correct it, delete it, or continue with its annotation. The “Label coordinates” widget prints the first five coordinates of any label chosen by the user, whether it be 2D or 3D. 
+**b) Label localization.**: During annotation, it is often necessary to find a specific annotated item, whether to correct it, delete it, or continue with its annotation. The “Label coordinates” widget prints the first five coordinates of any label chosen by the user, whether it be 2D or 3D. 
 
 <img src="https://github.com/user-attachments/assets/9dccfd2e-13c1-47bc-9f7e-6a651c40da68" width=60% height=60%> 
 
