@@ -3,7 +3,7 @@ NAHP is a Napari plugin that was created as part of my Ph.D. project. Its object
 
 Napari Annotation Helper, or NAHP is a Python-developed Napari plugin using magicgui (Magicgui, 2020) and pyqt5 (Riverbank Computing, n.d.) Python packages. NAHP’s objective is to assist users in performing annotation faster and more easily by providing a set of functions that will help them avoid annotation errors, object-label mismatch, label repetition, and confusion when tracking the labels added to an image.
 
-NAHP uses 2D segmented image stacks (preferably with instance labels) as input to generate 3D annotations. As this 2D segmentation step is not incorporated into NAHP, users are free to use any segmentation method they want as a starting point. Typically, I used my trained StarDist 2D[1] model to get these 2D segmented image stacks.
+NAHP uses 2D segmented image stacks (preferably with instance labels) as input to generate 3D annotations. As this stage of the project, the 2D segmentation step is not incorporated into NAHP, users are free to use any segmentation method they want as a starting point. Typically, I used my trained StarDist 2D[1] model to get these 2D segmented image stacks.
 
 NAHP consists of three main sections: labels layer features, functions to facilitate annotation, and annotation helper extra functions.
 
